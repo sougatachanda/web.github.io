@@ -1,0 +1,101 @@
+@import url('../css/fonts.css');
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: #3f4954;
+}
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul
+{
+ list-style-type: none;
+}
+.nav
+{
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden; 
+}
+.nav .nav-logo a
+{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+   
+}
+.nav .nav-items
+{
+    color: gray;
+    display: flex;
+    margin: 0rem;
+}
+.nav .nav-items .nav-link:hover
+{
+ background: linear-gradient(to right, #00b4db, #0083b0); 
+}
+.nav .nav-items .nav-link:hover a
+{
+ color: white;
+}
+.nav .nav-menu
+{
+    justify-content: space-between;
+}
+.nav .nav-items .nav-link
+{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+.nav .social
+{
+     padding: 1.4rem 0;
+}
+.nav .social i
+{
+    padding: 0 .2rem;
+}
+.nav .social i:hover
+{
+ color: darkred;
+}
+.bio
+{
+    margin: 0;
+    padding 0;
+    background: #263f44;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    
+}
+.bio .img
+{
+    background: url('../asset/photography-of-mountains-under-cloudy-sky-1183099.jpg');
+    background-size: cover;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 50%;
+    width:15rem;
+    height: 15rem;
+   transform: translate(2rem,8rem);
+}
+p
+{
+  margin-left: 18rem;
+  margin-top: 1px;
+}
