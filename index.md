@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sougata Chanda|HOME</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/all.css">
-</head>
-<body>
-   <nav class="nav">
 
        <div class="nav-menu flex-row">
          <div class="nav-logo">
@@ -44,10 +32,7 @@
        </div>
 
      </div>  
-   </nav> 
-
-   <main>
-       <section class="background-img">
+  
        
             <div class="write">
                 <h2>SOUGATA CHANDA</h2>
@@ -57,7 +42,4 @@
         </section>
     </main>
 
-   <script src="./js/jQuery3.4.1-min.js"></script>
-   <script src="./js/main.js"></script>
-</body>
-</html>
+ 
